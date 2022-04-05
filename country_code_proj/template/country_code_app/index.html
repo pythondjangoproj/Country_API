@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GeoLocation</title>
+</head>
+<body>
+<h1 align="center">your location {{data.query}}</h1>
+<!--<p align="center">{{data}}</p>-->
+
+<ul>
+    <li>Country: {{data.country}}</li>
+    <li>City: {{data.city}}</li>
+    <li>Latitude: {{data.lat}}</li>
+    <li>Longitude: {{data.lon}}</li>
+
+
+</ul>
+<hr>
+<h3 align="center">More Details</h3>
+
+<p align="center">
+    <ul>
+    <li>region: {{data.region}}</li>
+    <li>countryCode: {{data.countryCode}}</li>
+    <li>timezone: {{data.timezone}}</li>
+    <li>ZIP: {{data.zip}}</li>
+
+    </ul>
+</p>
+
+
+</body>
+</html>
